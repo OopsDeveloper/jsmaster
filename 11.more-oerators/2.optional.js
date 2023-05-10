@@ -8,7 +8,7 @@ console.log(price);
 
 let obj = { name: '🐶', owner: { name: '엘리' } };
 function printName(obj) {
-  const ownerName = obj?.owner?.name;
+  const ownerName = obj?.owner?.name; //obj && obj.owner && obj.owner.name; 과 같음
   console.log(ownerName);
 }
 printName(obj);
